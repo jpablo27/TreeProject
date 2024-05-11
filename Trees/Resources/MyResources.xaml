@@ -1,0 +1,9 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="clr-namespace:Trees.Converter">
+    <converter:TrueToVisibilityConverter x:Key="trueToVisibilityConverter" />
+    <converter:NotNullToVisibilityConverter x:Key="notNullToVisibilityConverter" />
+    <converter:LeftVisible x:Key="LeftVisible" />
+    <converter:RightVisible x:Key="RightVisible" />
+</ResourceDictionary>
